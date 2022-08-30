@@ -40,7 +40,6 @@ class AddRecipeView extends View {
 	}
 
 	_generateMarkup() {
-		console.log("HEELLOOOO");
 		return `<button class="btn--close-modal">&times;</button>
      <form class="upload">
           <div class="upload__column">
@@ -99,7 +98,7 @@ class AddRecipeView extends View {
 
           <button class="btn upload__btn">
                <svg>
-                    <use href="src/img/icons.svg#icon-upload-cloud"></use>
+                    <use href="${icons}#icon-upload-cloud"></use>
                </svg>
                <span>Upload</span>
           </button>
