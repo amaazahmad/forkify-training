@@ -1,6 +1,6 @@
 import { state } from "../model.js";
 import previewView from "./previewView.js";
-import View from "./View.js";
+import View from "./view.js";
 
 class BookmarkView extends View {
 	_parentElement = document.querySelector(".bookmarks__list");
